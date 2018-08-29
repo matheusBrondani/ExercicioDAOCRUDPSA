@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Console;
-using ExercicioEF.PL;
+using ExercicioDAOCRUD.PL;
 
-namespace ExercicioEF
+namespace ExercicioDAOCRUD
 {
     class MovieContext : DbContext
     {

@@ -1,11 +1,11 @@
 ﻿using System;
-using ExercicioEF.PL;
+using ExercicioDAOCRUD.PL;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-namespace ExercicioEF
+namespace ExercicioDAOCRUD
 {
     class Program
     {
@@ -19,6 +19,7 @@ namespace ExercicioEF
                     Seed(db);
                 }
                 #endregion
+
                 #region consultas
 
                 //Elenco de The Empire Strikes Back

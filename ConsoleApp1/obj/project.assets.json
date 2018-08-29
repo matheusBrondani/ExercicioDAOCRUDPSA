@@ -3638,23 +3638,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mboliveira1\\.nuget\\packages\\": {},
+    "C:\\Users\\15111258\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Estudos\\ExercicioPSA\\ConsoleApp1\\ConsoleApp1\\ExercicioEF.csproj",
-      "projectName": "ExercicioEF",
-      "projectPath": "C:\\Estudos\\ExercicioPSA\\ConsoleApp1\\ConsoleApp1\\ExercicioEF.csproj",
-      "packagesPath": "C:\\Users\\mboliveira1\\.nuget\\packages\\",
-      "outputPath": "C:\\Estudos\\ExercicioPSA\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "projectUniqueName": "C:\\Users\\15111258\\Desktop\\ExercicioDAOCRUDPSA\\ConsoleApp1\\ExercicioDAOCRUD.csproj",
+      "projectName": "ExercicioDAOCRUD",
+      "projectPath": "C:\\Users\\15111258\\Desktop\\ExercicioDAOCRUDPSA\\ConsoleApp1\\ExercicioDAOCRUD.csproj",
+      "packagesPath": "C:\\Users\\15111258\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\15111258\\Desktop\\ExercicioDAOCRUDPSA\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mboliveira1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\15111258\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3678,22 +3681,22 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[2.1.2, )"
-          },
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
-            "version": "[2.1.2, )"
-          },
-          "Microsoft.Extensions.Logging.Console": {
-            "target": "Package",
-            "version": "[2.1.1, )"
+            "version": "2.1.2"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "2.1.2"
+          },
+          "Microsoft.Extensions.Logging.Console": {
+            "target": "Package",
+            "version": "2.1.1"
           }
         },
         "imports": [
